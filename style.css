@@ -1,11 +1,6 @@
 body {
     width: 70vw;
-    margin: auto;
-}
-
-#heading a{
-    text-decoration: none;
-    color: black;
+    margin: 20px auto;
 }
 
 #heading, #divider {
@@ -41,4 +36,9 @@ h2, h3 {
 
 .img-credit {
     font-size: 16px;
+}
+
+#card-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
