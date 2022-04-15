@@ -1,15 +1,4 @@
-@font-face {
-    font-family: 'bm_med';
-    src: url(fonts/BodoniModa_72pt-Medium.ttf);
-}
-
-@font-face {
-    font-family: 'bm_sb';
-    src: url(fonts/BodoniModa_72pt-SemiBold.ttf);
-}
-
 body {
-    text-align: center;
     width: 70vw;
     margin: auto;
 }
@@ -41,17 +30,13 @@ body {
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 3em;
 }
 
 h2, h3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.5px;
-}
-
-p {
-    font-size: 18px;
 }
 
 .img-credit {
