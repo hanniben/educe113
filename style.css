@@ -3,42 +3,19 @@ body {
     margin: 20px auto;
 }
 
-#heading, #divider {
-    background-color: antiquewhite;
-}
-
-.content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1vw;
-    text-align: left;
-    width: 60vw;
-    margin: auto;
-}
-
-.content img, .content video {
-    width: 100%;
-}
-
-.content p {
-    text-align: justify;
-}
-
-h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 3em;
-}
-
-h2, h3 {
-    font-family: Helvetica, Arial, sans-serif;
-    letter-spacing: 0.5px;
-}
-
-.img-credit {
-    font-size: 16px;
-}
-
 #card-grid {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+.img-header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    margin: 40px 0px;
+}
+
+.img-header img {
+    width: 100%;
+    border: grey 1px solid;
 }
