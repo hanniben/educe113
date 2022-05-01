@@ -2,16 +2,37 @@
     #card-grid, .gallery-grid {
         grid-template-columns: auto auto auto;
     }
+
+    .img-header {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    body {
+        width: 70vw;
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1199px) {
     #card-grid, .gallery-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .img-header {
         grid-template-columns: auto auto;
+    }
+
+    body {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    body {
+        width: 90vw;
     }
 }
 
 body {
-    width: 70vw;
     margin: 20px auto;
 }
 
@@ -27,12 +48,12 @@ body {
 
 .img-header {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 10px;
+    column-gap: 40px;
+    row-gap: 40px;
     margin: 40px 0px;
 }
 
-.img-header img {
+.img-header img, .card img {
     width: 100%;
     border: grey 1px solid;
 }
@@ -45,17 +66,60 @@ body {
 .container {
     position: relative;
     width: 50%;
-  }
+}
   
-  /* Make the image to responsive */
-  .image {
-    width: 100%;
-    height: auto;
-    transform: scale(1);
-    transition: .3s ease;
-  }
-  
-  /* When you mouse over the container, the overlay text will "zoom" in display */
-  .container:hover {
-    transform: scale(3);
-  }
+/* Make the image to responsive */
+.image {
+width: 100%;
+height: auto;
+transform: scale(1);
+transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover {
+transform: scale(3);
+}
+
+.jumbotron {
+background-color: #E1E8DB !important;
+}
+
+.navbar {
+background-color: white !important;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #D0514D !important;
+}
+
+a:hover {
+    color: #331832 !important;;
+}
+
+.btn-primary {
+background-color: #D0514D !important;
+border-color: #D0514D !important;
+color: white !important;
+width: 100%;
+}
+
+.btn-primary:hover {
+background-color: #331832 !important;
+border-color: #331832 !important;
+color: white !important;
+}
+
+hr {
+border-top: #D0514D solid 2px;
+}
+
+.card {
+background-color: #E1E8DB !important;
+padding: 10px;
+border: grey 1px solid;
+}
