@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 800px) and (max-width: 1199px) {
     #card-grid, .gallery-grid {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: auto auto;
     }
 
     .img-header {
