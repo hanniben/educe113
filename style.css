@@ -7,6 +7,10 @@
         grid-template-columns: 2fr 1fr;
     }
 
+    .text-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
     body {
         width: 70vw;
     }
@@ -46,7 +50,7 @@ body {
     width: 100% !important;
 }
 
-.img-header {
+.img-header, .text-grid  {
     display: grid;
     column-gap: 40px;
     row-gap: 40px;
